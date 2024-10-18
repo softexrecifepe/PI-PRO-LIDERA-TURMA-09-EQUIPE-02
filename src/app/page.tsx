@@ -1,5 +1,5 @@
 import { Header } from "./components/header";
-import { Footer } from "./components/footer";
+import { RegisterForm } from "./components/registerForm";
 
 export default function Home(){
   return (
@@ -8,7 +8,7 @@ export default function Home(){
         <Header></Header>
       </div>
       <div>
-        <Footer></Footer>
+        <RegisterForm></RegisterForm>
       </div>
     </div>
   )
