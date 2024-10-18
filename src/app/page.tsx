@@ -1,16 +1,9 @@
-function Title(props: TitleProps){
-  console.log(props.text);
-  console.log(props.name);
-  return <h1 className="text-2xl font-bold">Meu Título</h1>
-}
-type TitleProps ={
-  text?: string;
-  name?: string;
-};
+import { Header } from "./components/header";
+
 export default function Home(){
   return (
     <div>
-      <Title text="Olá" name="Jucier"/>
+      <Header
     </div>
   )
 };
