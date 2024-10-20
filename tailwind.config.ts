@@ -11,7 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'header': '#FBF9FF'
+        'box': '#FBF9FF',
+        'button-green': '#33F54A',
+        'button-orange': '#ED7447'
       },
     },
   },
