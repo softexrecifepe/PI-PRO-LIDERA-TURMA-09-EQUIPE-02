@@ -1,5 +1,4 @@
 import React from 'react'
-import lidera from '../resources/Lidera.png'
 
 export function Header() {
     return(
