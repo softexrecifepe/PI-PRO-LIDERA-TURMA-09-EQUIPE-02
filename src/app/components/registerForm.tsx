@@ -3,7 +3,7 @@ import { Button } from "./button";
 
 export function RegisterForm(){
     const click = () => {
-        alert("botão clicado")
+        alert("Cadastro Realizado!")
       }
     return(
         <div className="bg-box w-96 mt-20 mx-auto p-3 text-center rounded-2xl">
