@@ -1,6 +1,5 @@
 export function Footer(){
     return(
-        <div>
             <footer className="bottom-0 w-full bg-box h-fit mt-20">
                 <h1 className="text-center p-10 font-semibold text-2xl">Pro Lidera Skills</h1>
                 <div className="flex">
@@ -10,6 +9,5 @@ export function Footer(){
                 </div>
                 <div className="text-center font-medium py-5">2024 - Pro Lidera Skills</div>
             </footer>
-        </div>
     )
 }
