@@ -7,7 +7,7 @@ export default function Home(){
  
   return (
     <div>
-      <Header></Header>
+      {/* <Header></Header> */}
       <RegisterForm></RegisterForm>
       <Footer></Footer>
     </div>
