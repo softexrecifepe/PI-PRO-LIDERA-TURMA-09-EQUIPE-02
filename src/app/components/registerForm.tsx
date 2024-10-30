@@ -7,7 +7,6 @@ export function RegisterForm(){
       }
     return(
         <div className="bg-box w-96 mt-20 mx-auto p-3 text-center rounded-2xl">
-            <footer>
                 <h1 className="text-3xl font-bold p-3">Realizar Cadastro</h1>
                 <form className="mx-12">
                     {/* // TROCAR TODOS OS "H1" POR <label></label> P USAR C INPUT*/}
@@ -21,7 +20,6 @@ export function RegisterForm(){
                     <br></br>
                     <Button onClick={click}></Button>
                 </form>
-            </footer>
         </div>
     )
 }
