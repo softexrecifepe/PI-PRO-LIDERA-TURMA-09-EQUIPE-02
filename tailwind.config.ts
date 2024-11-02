@@ -12,6 +12,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'box': '#FBF9FF',
+        'question': '#edebf2',
         'button-green': '#33F54A',
         'button-orange': '#ED7447'
       },

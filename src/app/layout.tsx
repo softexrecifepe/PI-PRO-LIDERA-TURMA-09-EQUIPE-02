@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Head from "next/head"; // Import Head component
 import "./globals.css";
 import { Header } from "./components/header";
+import { Footer } from "./components/footer";
 
 const nunito = localFont({
   src: "./fonts/Nunito-Regular.ttf",
@@ -30,11 +31,10 @@ export default function RootLayout({
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content={metadata.description} />
+        <meta name="description"/>
         <link rel="icon" href="/favicon.ico" />
-        {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
           rel="stylesheet"
@@ -43,6 +43,7 @@ export default function RootLayout({
       <body className={`${nunito.variable} ${roboto.variable} antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

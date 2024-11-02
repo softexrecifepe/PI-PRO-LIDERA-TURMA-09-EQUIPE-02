@@ -19,11 +19,11 @@ interface Option {
     };
   
     return (
-      <div style={styles.container}>
-        <h2>{question}</h2>
-        <div style={{ marginTop: '15px' }}> {/* Espaço entre pergunta e opções */}
+      <div className="p-5 rounded-lg mx-w-[400px] m-auto bg-question">
+        <h2 className="font-semibold">{question}</h2>
+        <div className="mt-4">
           {options.map((option) => (
-            <label key={option.id} style={styles.option}>
+            <label key={option.id} className="flex items-center mb-3 text-base gap-3">
               <input
                 type="radio"
                 name="multipleChoice"
@@ -38,18 +38,3 @@ interface Option {
       </div>
     );
   };
-  const styles = {
-    container: {
-      border: '1px solid #ddd',
-      padding: '20px',
-      borderRadius: '8px',
-      maxWidth: '400px',
-      margin: '0 auto',
-    },
-    option: {
-      display: 'flex',
-      alignItems: 'center',
-      marginBottom: '10px',
-      fontSize: '16px',
-    },
-  };  
