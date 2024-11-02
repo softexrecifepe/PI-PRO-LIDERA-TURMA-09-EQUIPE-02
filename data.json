@@ -1,0 +1,184 @@
+{
+    "questões": [
+        {
+            "id": 1,
+            "pergunta" : " Você precisa comunicar uma mudança importante na política da empresa para sua equipe, que pode causar preocupação entre os membros. Como você abordaria essa comunicação?",
+            "alternativas": [
+                {"letra": "a) Envia um e-mail detalhado explicando a mudança, sem abrir espaço para perguntas.", "pontos": 2},
+                {"letra": "b) Faz uma reunião com a equipe, explica a mudança e pede sugestões sobre como implementá-la.", "pontos": 4},
+                {"letra": "c) Menciona a mudança brevemente em uma reunião, sem abrir para discussões, para evitar reações negativas.", "pontos": 1},
+                {"letra": "d) Anuncia a mudança em uma reunião, mas só permite perguntas no final, para manter o controle da situação.", "pontos": 3}
+            ]
+        },
+        {
+            "id": 2,
+            "pergunta": "Durante uma reunião, um membro da equipe faz uma crítica construtiva a um projeto que você está liderando. Como você reage?",
+            "alternativas": [
+                {"letra": "a) Agradece o feedback, pede para aprofundar a crítica e sugere uma reunião posterior para discutir melhorias.", "pontos": 4},
+                {"letra": "b) Escuta a crítica, mas rapidamente muda de assunto para evitar desconforto.", "pontos": 2},
+                {"letra": "c) Defende o projeto e explica porque a crítica não é válida, encerrando o assunto.", "pontos": 1},
+                {"letra": "d) Aceita o feedback, mas não faz nenhuma alteração no projeto.", "pontos": 3}
+            ]
+        },
+        {
+            "id": 3,
+            "pergunta": "Um novo colaborador está tendo dificuldade em entender algumas orientações. Como você lida com a situação?",
+            "alternativas": [
+                {"letra": "a) Envia uma nova comunicação com explicações mais detalhadas por e-mail.", "pontos": 3},
+                {"letra": "b) Marca uma reunião para explicar novamente de forma clara e tira todas as dúvidas pessoalmente.", "pontos": 4},
+                {"letra": "c) Pede a outro membro da equipe para explicar as orientações ao novo colaborador.", "pontos": 2},
+                {"letra": "d) Diz ao novo colaborador para rever as orientações anteriores e tentar entender por conta própria.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 4,
+            "pergunta": "Sua empresa está enfrentando uma queda nas vendas, e você foi encarregado de elaborar uma estratégia para reverter a situação. Qual seria o seu primeiro passo?",
+            "alternativas": [
+                {"letra": "a) Analisar os relatórios financeiros e identificar onde estão as maiores perdas.", "pontos": 3},
+                {"letra": "b) Reunir a equipe para discutir ideias de novas promoções e campanhas de marketing.", "pontos": 4},
+                {"letra": "c) Focar em cortar custos imediatos para compensar a queda nas vendas.", "pontos": 2},
+                {"letra": "d) Esperar que a situação se normalize, já que acredita que é uma fase temporária.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 5,
+            "pergunta": "Uma nova tecnologia disruptiva está surgindo no seu setor. Como você reage?",
+            "alternativas": [
+                {"letra": "a) Convoca uma reunião para discutir como a empresa pode adotar ou se adaptar à nova tecnologia.", "pontos": 4},
+                {"letra": "b) Monitora a adoção da tecnologia por outras empresas antes de tomar qualquer ação.", "pontos": 3},
+                {"letra": "c) Mantém o foco nas tecnologias e processos atuais da empresa, sem se preocupar com a nova tendência", "pontos": 1},
+                {"letra": "d) Envia um memorando à equipe alertando sobre a tecnologia, mas sem sugerir mudanças imediatas.", "pontos": 2}
+            ]
+        },
+        {
+            "id": 6,
+            "pergunta": "O mercado mostra sinais de recessão econômica. Como você se prepara?",
+            "alternativas": [
+                {"letra": "a) Realiza uma análise de cenários para planejar diferentes estratégias conforme a situação evolui.", "pontos": 4},
+                {"letra": "b) Concentra-se em otimizar os processos internos para reduzir custos.", "pontos": 3},
+                {"letra": "c) Reduz imediatamente os investimentos em novos projetos até que a situação melhore.", "pontos": 2},
+                {"letra": "D) Adota uma postura de espera, acreditando que as condições do mercado se recuperarão por conta própria.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 7,
+            "pergunta": "Um fornecedor importante entrega um lote com defeitos, e você precisa decidir o que fazer. Como você age?",
+            "alternativas": [
+                {"letra": "a) Pede ao fornecedor para refazer o lote e busca alternativas para não interromper a produção.", "pontos": 4},
+                {"letra": "b) Aceita o lote com defeitos para evitar atrasos, mas exige desconto na próxima entrega.", "pontos": 2},
+                {"letra": "c) Rejeita o lote e procura outro fornecedor, mesmo sabendo que pode causar atrasos na produção.", "pontos": 3},
+                {"letra": "d) Ignora o problema e utiliza o lote com defeitos para manter a produção em andamento.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 8,
+            "pergunta": "Você tem que escolher entre dois candidatos para uma posição-chave, ambos com qualidades distintas. Como decide?",
+            "alternativas": [
+                {"letra": "a) Escolhe o candidato com mais experiência, pois acredita que isso é o mais importante.", "pontos": 2},
+                {"letra": "b) Escolhe o candidato que tem um perfil mais inovador, alinhado com a visão de futuro da empresa.", "pontos": 4},
+                {"letra": "c) Pede uma nova rodada de entrevistas para entender melhor como cada um pode contribuir.", "pontos": 3},
+                {"letra": "d) Deixa a decisão para o RH, já que ambos são qualificados.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 9,
+            "pergunta": "O projeto em que você está trabalhando está atrasado, e há pressão para entregá-lo a tempo. O que você faz?",
+            "alternativas": [
+                {"letra": "a) Trabalha com a equipe para identificar as principais causas do atraso e resolve os problemas, mesmo que atrase um pouco mais.", "pontos": 4},
+                {"letra": "b) Acelera o processo, mesmo que isso signifique comprometer a qualidade do trabalho.", "pontos": 2},
+                {"letra": "c) Pede uma extensão de prazo ao cliente ou superior, explicando a situação.", "pontos": 3},
+                {"letra": "d) Mantém o ritmo atual, mesmo que isso signifique que o projeto será entregue atrasado.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 10,
+            "pergunta": "Você está trabalhando em vários projetos simultaneamente, todos com prazos apertados. Um novo projeto urgente é adicionado à sua lista. Como você gerencia essa situação?",
+            "alternativas": [
+                {"letra": "a) Adia os projetos menos prioritários para se concentrar no novo projeto urgente.", "pontos": 3},
+                {"letra": "b) Trabalha horas extras e nos fins de semana para dar conta de todos os projetos.", "pontos": 2},
+                {"letra": "c) Reavalia as prioridades, delega tarefas e informa seu gestor sobre a necessidade de ajustar os prazos se necessário", "pontos": 4},
+                {"letra": "d) Mantém o ritmo atual de trabalho, sem fazer ajustes, e espera que consiga concluir tudo a tempo.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 11,
+            "pergunta": "Você tem uma reunião importante marcada para hoje à tarde, mas ainda precisa finalizar uma apresentação. Como você lida com o tempo limitado?",
+            "alternativas": [
+                {"letra": "a) Cancela a reunião para focar na apresentação, garantindo que ela esteja perfeita.", "pontos": 2},
+                {"letra": "b) Apresenta um rascunho na reunião e continua trabalhando na apresentação depois.", "pontos": 3},
+                {"letra": "c) Adianta o trabalho da apresentação o máximo possível antes da reunião e finaliza depois.", "pontos": 4},
+                {"letra": "d) Faz o trabalho da apresentação durante a reunião, sacrificando o foco em ambas as tarefas.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 12,
+            "pergunta": "Você percebe que está dedicando muito tempo a tarefas administrativas que não são prioritárias. Como você aborda essa questão?",
+            "alternativas": [
+                {"letra": "a) Automatiza ou delega as tarefas administrativas para liberar mais tempo para atividades estratégicas.", "pontos": 4},
+                {"letra": "b) Dedica algumas horas extras durante a semana para concluir as tarefas administrativas.", "pontos": 2},
+                {"letra": "c) Ignora as tarefas administrativas até que sejam absolutamente necessárias.", "pontos": 1},
+                {"letra": "d) Reorganiza sua agenda para realizar as tarefas administrativas fora do horário comercial.", "pontos": 3}
+            ]
+        },
+        {
+            "id": 13,
+            "pergunta": "Um colega de trabalho está visivelmente irritado e faz um comentário rude durante uma reunião. Como você reage?",
+            "alternativas": [
+                {"letra": "a) Ignora o comentário para evitar conflitos e continua a reunião normalmente.", "pontos": 2},
+                {"letra": "b) Responde de maneira assertiva, pedindo para que o colega mantenha o respeito.", "pontos": 3},
+                {"letra": "c) Interrompe a reunião para conversar com o colega em particular, buscando entender a situação.", "pontos": 4},
+                {"letra": "d) Retruca o comentário na mesma intensidade para se defender.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 14,
+            "pergunta": "Você está sob pressão para entregar um projeto, e sente que suas emoções estão começando a atrapalhar. O que você faz?",
+            "alternativas": [
+                {"letra": "a) Tira um momento para respirar e reorganizar seus pensamentos antes de continuar trabalhando.", "pontos": 4},
+                {"letra": "b) Continua trabalhando, ignorando as emoções, e foca apenas na conclusão do projeto.", "pontos": 2},
+                {"letra": "c) Divide a pressão com a equipe, expressando seus sentimentos e buscando apoio.", "pontos": 3},
+                {"letra": "d) Permite que as emoções tomem conta, resultando em decisões impulsivas.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 15,
+            "pergunta": "Um membro da sua equipe comete um erro significativo, e você está irritado. Como você lida com a situação?",
+            "alternativas": [
+                {"letra": "a) Expressa sua frustração imediatamente para o colaborador, mostrando as consequências do erro.", "pontos": 2},
+                {"letra": "b) Tira um tempo para se acalmar antes de abordar o erro com o colaborador, focando na solução e aprendizado.", "pontos": 4},
+                {"letra": "c) Evita falar sobre o erro para não causar desconforto, mas mantém o ressentimento.", "pontos": 1},
+                {"letra": "d) Delegue a tarefa de conversar com o colaborador para outra pessoa para evitar o confronto direto.", "pontos": 3}
+            ]
+        },
+        {
+            "id": 16,
+            "pergunta": "Durante uma reunião, sua equipe apresenta uma solução convencional para um problema recorrente. Como você incentiva a inovação?",
+            "alternativas": [
+                {"letra": "a) Agradece a proposta e pede para a equipe explorar alternativas mais criativas, incentivando o pensamento 'fora da caixa'.", "pontos": 4},
+                {"letra": "b) Aceita a solução proposta, pois acredita que o método convencional é o mais seguro.", "pontos": 2},
+                {"letra": "c) Desafia a equipe a pensar em algo inovador, mas deixa claro que o tempo é curto, pressionando-os.", "pontos": 3},
+                {"letra": "d) Implementa a solução convencional imediatamente para resolver o problema rapidamente.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 17,
+            "pergunta": "Você percebe que os processos em sua equipe estão muito padronizados e pouco inovadores. O que você faz?",
+            "alternativas": [
+                {"letra": "a) Implementa sessões regulares de brainstorming para que a equipe explore novas ideias e soluções.", "pontos": 4},
+                {"letra": "b) Permite que a equipe continue seguindo os processos estabelecidos, já que eles são eficazes.", "pontos": 2},
+                {"letra": "c) Introduz pequenas mudanças incrementais nos processos, mas sem grande inovação.", "pontos": 3},
+                {"letra": "d) Não intervém, pois acredita que os processos padronizados são a melhor maneira de manter a eficiência.", "pontos": 1}
+            ]
+        },
+        {
+            "id": 18,
+            "pergunta": " Sua empresa está lançando um novo produto, e você é responsável por sugerir estratégias de marketing. Como você se aproxima dessa tarefa?",
+            "alternativas": [
+                {"letra": "a) Propõe uma campanha inovadora que utiliza novas plataformas e formatos digitais.", "pontos": 4},
+                {"letra": "b) Sugere seguir as estratégias de marketing que foram eficazes para produtos anteriores.", "pontos": 2},
+                {"letra": "c) Faz uma combinação de técnicas tradicionais e algumas novas, mas sem se arriscar muito.", "pontos": 3},
+                {"letra": "d) Decide usar a mesma abordagem de marketing que outras empresas do setor estão usando.", "pontos": 1}
+            ]
+        }
+    ]
+}
