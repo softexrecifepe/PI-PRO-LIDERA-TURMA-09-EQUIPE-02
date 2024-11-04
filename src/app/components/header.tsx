@@ -1,7 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import logolidera from '../resources/pro-lidera-skills-logo-transformed.jpeg';
 
 export function Header() {
     return (
