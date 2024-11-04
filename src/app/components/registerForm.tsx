@@ -9,7 +9,7 @@ export function RegisterForm(){
                     <InputText labelText="Digite seu nome"></InputText>
                     <InputText labelText="Digite seu sobrenome"></InputText>
                     <InputText labelText="Digite seu email"></InputText>
-                    <Button page="Cadastre-se"></Button>
-        </div>
+                    <Button page="Cadastre-se" href="/pages/quests1-2" />
+                    </div>
     )
 }
