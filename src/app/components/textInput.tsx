@@ -2,8 +2,6 @@ export function InputText({labelText}: {labelText: string}){
     return(
         <div>
             <form className="mx-12">
-                {/* // TROCAR TODOS OS "H1" POR <label></label> P USAR C INPUT*/}
-                {/* Criar um compotente para o <input type="text" /> */}
                 <label htmlFor="name" className="absolute bg-box transform translate-x-[10%] translate-y-1/3 font-semibold px-2">
                     {labelText}
                 </label>
