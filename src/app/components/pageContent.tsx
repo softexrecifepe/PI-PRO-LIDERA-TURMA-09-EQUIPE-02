@@ -3,7 +3,7 @@ export function PageContent({imageSrc, textContent, titleText}: {imageSrc: strin
         <div className=" mx-16 my-4 text-box p-2 w-[80%]">
             <h3 className="text-5xl font-bold flex-col w-[450px]">{titleText}</h3>
             <div className="flex">
-                <img className="p-5" src={imageSrc} alt="" />
+                <img className="w-[500px] h-[400px]" src={imageSrc} alt="" />
                 <p className="font-semibold text-3xl text-center p-5 mt-[10%]">{textContent}</p>
             </div>
         </div>
