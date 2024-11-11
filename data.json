@@ -1,6 +1,4 @@
-{
-    "questoes": [
-        {
+[    {
             "id": 1,
             "pergunta" : " Você precisa comunicar uma mudança importante na política da empresa para sua equipe, que pode causar preocupação entre os membros. Como você abordaria essa comunicação?",
             "alternativas": [
@@ -181,4 +179,3 @@
             ]
         }
     ]
-}
