@@ -6,10 +6,15 @@ export function Forms() {
   return(
     <div  className="bg-box w-[550px] mt-6 mx-auto p-3 text-center rounded-2xl">
     {
-      Data.map(post => (
+      Data.map(question => (    //mapeia todos elementos do question, 
+                                //realizando um comportamento para cada um
         <div>
-        <p>Questão {post.id}</p>
-        <h2>{post.pergunta}</h2>
+        <p>Questão {question.id}</p>  {/* pega o id e as perguntas de cada elemento */}
+        <h2>{question.pergunta}</h2>
+      
+        {question.alternativas.map(alternatives => (  //pega cada alternativa
+          <p>{alternatives.letra}</p>  
+        ))}
         </div>
       ))
   }
