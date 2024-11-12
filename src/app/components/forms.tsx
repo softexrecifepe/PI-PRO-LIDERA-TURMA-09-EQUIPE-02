@@ -16,8 +16,7 @@ export function Forms() {
         {question.alternativas.map(alternatives => (  //pega cada alternativa
         <form className="mx-auto text-left">
           <div className="mb-3 text-base">
-            <input type="radio"  className=""  value={alternatives.pontos}></input> 
-            <label className="p-2" htmlFor={alternatives.pontos.toString()}>{alternatives.letra}</label>
+            <MultipleChoiceQuestion labelText={alternatives.letra} inputValue={alternatives.pontos}></MultipleChoiceQuestion>
           </div>
         </form>
         ))}

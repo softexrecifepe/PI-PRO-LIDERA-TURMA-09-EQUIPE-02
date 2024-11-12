@@ -1,10 +1,10 @@
 import React from "react";
-import { useState } from "react";
 
-export function MultipleChoiceQuestion(){
+export function MultipleChoiceQuestion({labelText, inputValue}: {labelText: string, inputValue: number}){
   return(
     <>
-      
+      <input type="radio"  className=""  value={inputValue}></input> 
+      <label className="p-2" htmlFor={inputValue.toString()}>{labelText}</label>
     </>
   )
 }
