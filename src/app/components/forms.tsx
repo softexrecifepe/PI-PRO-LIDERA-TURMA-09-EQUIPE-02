@@ -8,13 +8,20 @@ export function Forms() {
     {
       Data.map(question => (    //mapeia todos elementos do question, 
                                 //realizando um comportamento para cada um
-        <div>
-        <p>Questão {question.id}</p>  {/* pega o id e as perguntas de cada elemento */}
-        <h2>{question.pergunta}</h2>
-      
+        <div className="p-5 rounded-lg mx-w-[400px] mx-3 my-5 bg-question">
+        <h2 className="my-4 font-bold text-xl">Questão {question.id}</h2>  {/* pega o id e as perguntas de cada elemento */}
+        <h2 className="font-semibold">{question.pergunta}</h2>
+        
+        <div className="mt-4">
         {question.alternativas.map(alternatives => (  //pega cada alternativa
-          <p>{alternatives.letra}</p>  
+        <form className="mx-auto text-left">
+          <div className="mb-3 text-base">
+            <input type="radio"  className=""  value={alternatives.pontos}></input> 
+            <label className="p-2" htmlFor={alternatives.pontos.toString()}>{alternatives.letra}</label>
+          </div>
+        </form>
         ))}
+        </div>
         </div>
       ))
   }
