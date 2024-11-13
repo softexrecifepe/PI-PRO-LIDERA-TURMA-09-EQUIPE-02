@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export function MultipleChoiceQuestion({labelText, inputValue}: {labelText: string, inputValue: number}){
   return(
@@ -8,6 +8,8 @@ export function MultipleChoiceQuestion({labelText, inputValue}: {labelText: stri
     </>
   )
 }
+
+
 
 // interface Option {
 //     id: number;
