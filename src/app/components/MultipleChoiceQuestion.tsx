@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
 export function MultipleChoiceQuestion({labelText, inputValue}: {labelText: string, inputValue: number}){
+  const [checked, setChecked] = useState(false)
   return(
     <>
-      <input type="radio"  className=""  value={inputValue}></input> 
+      <input type="radio"  className=""  value={inputValue} checked={checked} onClick={() => setChecked(!checked)}></input> 
       <label className="p-2" htmlFor={inputValue.toString()}>{labelText}</label>
     </>
   )
