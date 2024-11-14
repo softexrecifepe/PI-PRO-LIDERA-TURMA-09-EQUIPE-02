@@ -14,9 +14,6 @@ export function Button({ buttonText, href, onClick, disabled = false }: ButtonPr
             disabled={disabled} 
             onClick={onClick}  // Associa a função onClick ao botão
             className={`rounded-xl bg-gradient-to-r from-button-orange to-button-green px-1 py-2 font-semibold shadow-md`}
-            type='submit'
-            form="register"
-            value="submit"
         >
             {href ? (
                 <Link href={href} className='w-full h-full rounded-lg px-4 py-1 bg-box transition ease-in-out delay-75 hover:bg-slate-200 duration-300'>
