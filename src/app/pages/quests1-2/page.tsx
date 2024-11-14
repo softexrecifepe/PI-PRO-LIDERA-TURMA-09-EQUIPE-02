@@ -8,7 +8,7 @@ export default function test(){
         <div>
             <Forms></Forms>
             <div className="text-center mt-20">
-            <Button page="Finalizar" href="/pages/results" />
+            <Button buttonText="Finalizar" href="/pages/results" />
             </div>
         </div>
     );

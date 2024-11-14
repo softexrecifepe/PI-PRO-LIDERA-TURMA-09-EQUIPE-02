@@ -85,11 +85,11 @@ export default function Results() {
             )}
 
             <div className="text-center mt-8">
-                <Button page="Retornar ao Início" href="/" />
+                <Button buttonText="Retornar ao Início" href="/" />
             </div>
 
             <div className="text-center mt-4">
-                <Button page="Imprimir Resultado" onClick={handlePrint} />
+                <Button buttonText="Imprimir Resultado" onClick={handlePrint} />
             </div>
         </main>
     );
