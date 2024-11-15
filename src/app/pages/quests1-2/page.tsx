@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/app/components/button";
+import { InputSubmit } from "@/app/components/inputSubmit";
 import { Forms } from "@/app/components/forms";
 
 export default function test(){
@@ -18,12 +18,15 @@ export default function test(){
     }
     return(
         <div>
-            <Forms sliceStart={0} sliceEnd={6}></Forms>
-            <Forms sliceStart={6} sliceEnd={12}></Forms>
-            <Forms sliceStart={12} sliceEnd={18}></Forms>
-            <div className="text-center mt-20">
-            <Button onClick={() => handleClick()} buttonText="Finalizar" href="/pages/results" />
+            <form action="results" id="formC">
+                <Forms sliceStart={0} sliceEnd={6}></Forms>
+                <Forms sliceStart={6} sliceEnd={12}></Forms>
+                <Forms sliceStart={12} sliceEnd={18}></Forms>
+            
+                <div className="text-center mt-20">
+                <InputSubmit inputText="Finalizar" form="formC" onclick={() => handleClick()} />
             </div>
+            </form>
         </div>
     );
 }

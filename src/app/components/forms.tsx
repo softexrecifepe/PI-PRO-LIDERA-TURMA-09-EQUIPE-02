@@ -16,14 +16,14 @@ export function Forms({sliceStart, sliceEnd}: {sliceStart: number, sliceEnd: num
         <h2 className="font-semibold">{question.pergunta}</h2>
         
         <div className="mt-4">
-          <form action="pages/results" className="mx-auto text-left">
+          
             {question.alternativas.map(alternatives => (  //pega cada alternativas
               <div className="mb-3 text-base">
-                <MultipleChoiceQuestion labelText={alternatives.letra} inputValue={alternatives.pontos}></MultipleChoiceQuestion>
+                <MultipleChoiceQuestion name={question.id.toString()} labelText={alternatives.letra} inputValue={alternatives.pontos}></MultipleChoiceQuestion>
               </div>
             ))
             }
-          </form>
+         
         </div>
         </div>
       ))
