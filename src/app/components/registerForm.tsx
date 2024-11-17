@@ -1,6 +1,6 @@
 import React from "react"
 import { InputText } from "./textInput";
-import { InputSubmit } from "./inputSubmit";
+import { Button } from "./button";
 
 export function RegisterForm(){
     return(
@@ -10,7 +10,7 @@ export function RegisterForm(){
                 <InputText inputId="Name" labelText="Digite seu nome"/>
                 <InputText inputId="Surname" labelText="Digite seu sobrenome"/>
                 <InputText inputId="Email" labelText="Digite seu email"/>  
-                <InputSubmit inputText="Cadastre-se"/>
+                <Button buttonText="Cadastre-se"  type="submit"/>
             </form>
           
         </div>

@@ -72,6 +72,7 @@ export const PDFButton: React.FC<PDFButtonProps> = ({ name, surname, leadershipL
   // retorna o componente Button que ao ser clicado executa a função handlePrint
   return (
     <Button
+    type="button"
       buttonText="Imprimir Resultado"  // texto do botão
       onClick={handlePrint}  // ação a ser executada quando o botão for clicado
       disabled={false}  // define o botão como habilitado

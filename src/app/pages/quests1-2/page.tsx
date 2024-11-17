@@ -1,7 +1,7 @@
 "use client";
 
-import { InputSubmit } from "@/app/components/inputSubmit";
 import { Forms } from "@/app/components/forms";
+import { Button } from "@/app/components/button";
 
 export default function Quest(){
 
@@ -23,7 +23,7 @@ export default function Quest(){
                 <Forms sliceStart={6} sliceEnd={12}/>
                 <Forms sliceStart={12} sliceEnd={18}/>
                 <div className="text-center mt-20">
-                <InputSubmit inputText="Finalizar" form="formC" onclick={() => handleClick()}/>
+                <Button buttonText="Finalizar" type="submit" onClick={() => handleClick()}/>
             </div>
             </form>
         </div>

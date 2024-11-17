@@ -49,7 +49,7 @@ export default function ResultsPage() {
       <FeedbackMessage index={getFeedbackIndex(score)} />
 
       <div className="text-center mt-8">
-        <Button buttonText="Retornar ao Início" href="/" />
+        <Button type="button" buttonText="Retornar ao Início" href="/" />
       </div>
 
       <div className="text-center mt-4">
