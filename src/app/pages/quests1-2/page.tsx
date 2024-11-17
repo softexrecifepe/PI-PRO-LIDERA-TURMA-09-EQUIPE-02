@@ -2,8 +2,11 @@
 
 import { InputSubmit } from "@/app/components/inputSubmit";
 import { Forms } from "@/app/components/forms";
+import { useNavigate } from "react-router-dom";
 
-export default function test(){
+export default function Quest(){
+
+    const navigate = useNavigate();
     function handleClick(){
         let selected: any = document.getElementsByClassName("check");
         let total = 0;
