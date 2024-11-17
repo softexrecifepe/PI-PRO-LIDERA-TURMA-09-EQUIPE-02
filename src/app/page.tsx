@@ -9,8 +9,8 @@ export default function Home(){
     <div>
       <PageContent titleText='Teste de avaliação de liderança' imageSrc={mockup.src}
        textContent="Seja bem-vindo ao nosso teste de avaliação de liderança! Com apenas 18 questões, nosso teste tem como finalidade definir seu nível 
-       de liderança. Cadastre-se para começar a responder!"></PageContent>
-      <RegisterForm></RegisterForm>
+       de liderança. Cadastre-se para começar a responder!"/>
+      <RegisterForm/>
     </div>
   )
 };

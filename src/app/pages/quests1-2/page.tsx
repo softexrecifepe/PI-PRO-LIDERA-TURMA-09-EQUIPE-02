@@ -2,11 +2,9 @@
 
 import { InputSubmit } from "@/app/components/inputSubmit";
 import { Forms } from "@/app/components/forms";
-import { useNavigate } from "react-router-dom";
 
 export default function Quest(){
 
-    const navigate = useNavigate();
     function handleClick(){
         let selected: any = document.getElementsByClassName("check");
         let total = 0;
@@ -14,20 +12,18 @@ export default function Quest(){
             if ((selected)[i].checked == true) {
                 total += parseInt(selected[i].value);
             }
-            
         }
-        alert(total);
-
+        localStorage.setItem("score", total.toString())
     }
+
     return(
         <div>
             <form action="results" id="formC">
-                <Forms sliceStart={0} sliceEnd={6}></Forms>
-                <Forms sliceStart={6} sliceEnd={12}></Forms>
-                <Forms sliceStart={12} sliceEnd={18}></Forms>
-            
+                <Forms sliceStart={0} sliceEnd={6}/>
+                <Forms sliceStart={6} sliceEnd={12}/>
+                <Forms sliceStart={12} sliceEnd={18}/>
                 <div className="text-center mt-20">
-                <InputSubmit inputText="Finalizar" form="formC" onclick={() => handleClick()} />
+                <InputSubmit inputText="Finalizar" form="formC" onclick={() => handleClick()}/>
             </div>
             </form>
         </div>

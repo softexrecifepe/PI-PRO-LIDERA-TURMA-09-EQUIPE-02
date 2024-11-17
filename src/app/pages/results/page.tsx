@@ -7,9 +7,10 @@ import { PDFButton } from "@/app/components/PDFbutton";
 import { Button } from "@/app/components/button";
 
 export default function ResultsPage() {
-  const [name, setName] = useState<string>("");
-  const [surname, setSurname] = useState<string>("");
-  const score = 70; // Pontuação do usuário, exemplo
+  const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
+
+  const score = parseInt(localStorage.getItem("score")!); // Pontuação do usuário, exemplo
 
   // função para determinar o índice do feedback com base na pontuação
   const getFeedbackIndex = (score: number): number => {
