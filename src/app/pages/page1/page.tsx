@@ -3,9 +3,9 @@
 import { Forms } from "@/app/components/forms";
 import { Button } from "@/app/components/button";
 
-export default function Quest(){
+export default function Page1() {
 
-    function handleClick(){
+    function handleNext() {
         let selected: any = document.getElementsByClassName("check");
         let total = 0;
         for (let i = 0; i < selected.length; i++) {
@@ -13,16 +13,14 @@ export default function Quest(){
                 total += parseInt(selected[i].value);
             }
         }
-        localStorage.setItem("score", total.toString())
     }
-
-    return(
+    return (
         <div>
-            <form action="results" id="formC">
-                <Forms sliceStart={0} sliceEnd={6}/>
+            <form id="formC">
+                <Forms sliceStart={6} sliceEnd={12} />
                 <div className="text-center mt-20">
-                <Button buttonText="Próximo" type="button" onClick={() => handleClick()} href="/pages/page1"/>
-            </div>
+                    <Button buttonText="Próximo" type="button" onClick={() => handleNext()} href="/pages/page2"/>
+                </div>
             </form>
         </div>
     );
