@@ -1,4 +1,4 @@
-import Result from "../../../results.json";
+import Result from "../json/results.json";
 
 export default function FeedbackMessage({ index }: { index: number }) {
   const text: string = Result[index].text; // obtém o texto do feedback com base no índice
