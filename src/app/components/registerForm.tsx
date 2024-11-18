@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { InputText } from "./textInput";
 import { Button } from "./button";
-import validator from "validator";
+import { InputMail } from "./mailInput";
 
 export function RegisterForm(){
     // const [email, setEmail] = useState<string>("");
@@ -33,7 +33,7 @@ export function RegisterForm(){
             <form action="pages/quests1-2" id="register" method="post" >
                 <InputText inputId="Name" labelText="Digite seu nome"/>
                 <InputText inputId="Surname" labelText="Digite seu sobrenome"/>
-                <InputText inputId="Email" labelText="Digite seu email"/>  
+                <InputMail inputId="Email" labelText="Digite seu email"/>
                 <Button buttonText="Cadastre-se"  type="submit"/>
             </form>
         </div>
