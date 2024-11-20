@@ -16,10 +16,10 @@ export default function Page1() {
     }
     return (
         <div>
-            <form id="formC">
+            <form action="page2" id="formC">
                 <Forms sliceStart={6} sliceEnd={12} />
                 <div className="text-center mt-20">
-                    <Button buttonText="Próximo" type="submit" onClick={() => handleNext()} href="/pages/page2"/>
+                    <Button buttonText="Próximo" type="submit" onClick={() => handleNext()}/>
                 </div>
             </form>
         </div>

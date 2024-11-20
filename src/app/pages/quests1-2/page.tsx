@@ -18,10 +18,10 @@ export default function Quest(){
 
     return(
         <div>
-            <form action="results" id="formC">
+            <form action="page1" id="formC">
                 <Forms sliceStart={0} sliceEnd={6}/>
                 <div className="text-center mt-20">
-                <Button buttonText="Próximo" type="submit" onClick={() => handleClick()} href="/pages/page1"/>
+                <Button buttonText="Próximo" type="submit" onClick={() => handleClick()}/>
             </div>
             </form>
         </div>
