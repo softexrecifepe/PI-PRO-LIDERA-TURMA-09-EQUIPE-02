@@ -19,7 +19,7 @@ export function Forms({sliceStart, sliceEnd}: {sliceStart: number, sliceEnd: num
         <div key={question.id} className="mt-4">
           
             {question.alternativas.map(alternatives => (   //pega cada alternativas
-              <div key={alternatives.letra} className="text-left mb-3 text-base">
+              <div key={alternatives.letra} className="radio text-left text-base rounded-md  transition delay-0 ease-in-out focus-within:bg-box focus-within:shadow-lg duration-200 p-3">
                 <MultipleChoiceQuestion name={question.id.toString()} labelText={alternatives.letra} inputValue={alternatives.pontos}/>
               </div>
             ))
