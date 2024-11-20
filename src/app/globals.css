@@ -18,6 +18,12 @@ body {
   }
 }
 
+.radio:has(input:checked){
+  background: #FBF9FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: background 1s, box-shadow 1s;
+}
+
 .header-titulo {
   font-family: "Roboto", sans-serif;
 }

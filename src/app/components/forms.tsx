@@ -5,6 +5,8 @@ import Data from "../json/data.json"
 export function Forms({sliceStart, sliceEnd}: {sliceStart: number, sliceEnd: number}) {
   const start : number = sliceStart;
   const end : number = sliceEnd;
+
+  
   return(
     <div className="bg-box w-[550px] mt-6 mx-auto p-3 text-center rounded-2xl">
     {Data.slice(start, end).map(question => (    //mapeia todos elementos do question, 
@@ -19,7 +21,7 @@ export function Forms({sliceStart, sliceEnd}: {sliceStart: number, sliceEnd: num
         <div key={question.id} className="mt-4">
           
             {question.alternativas.map(alternatives => (   //pega cada alternativas
-              <div key={alternatives.letra} className="radio text-left text-base rounded-md  transition delay-0 ease-in-out focus-within:bg-box focus-within:shadow-lg duration-200 p-3">
+              <div key={alternatives.letra} className="radio text-left text-base rounded-md p-3">
                 <MultipleChoiceQuestion name={question.id.toString()} labelText={alternatives.letra} inputValue={alternatives.pontos}/>
               </div>
             ))
