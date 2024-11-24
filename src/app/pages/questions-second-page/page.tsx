@@ -22,9 +22,9 @@ export default function Page1() {
     return (
         <div>
             <div className="m-10">
-                <Button buttonText="Anterior" type="button" href="quests1-2"/>
+                <Button buttonText="Anterior" type="button" href="questions-first-page"/>
             </div>
-            <form action="page2" id="formC">
+            <form action="questions-third-page" id="formC">
                 <Forms sliceStart={6} sliceEnd={12} />
                 <div className="text-center mt-20">
                     <Button buttonText="Próximo" type="submit" onClick={() => handleNext()}/>

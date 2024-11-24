@@ -20,15 +20,13 @@ export default function Page2() {
         const page2 = parseInt(localStorage.getItem("page2")!);
         let total = parseInt(localStorage.getItem("score")!)
         total -= page2;
-        
         localStorage.setItem("score", total.toString());
-    
     }
 
     return (
         <div>
             <div className="m-10">
-                <Button buttonText="Anterior" onClick={() => singlePage()} type="button" href="page1"/>
+                <Button buttonText="Anterior" onClick={() => singlePage()} type="button" href="questions-second-page"/>
             </div>
             <form action="results" id="formC">
                 <Forms sliceStart={12} sliceEnd={18} />
