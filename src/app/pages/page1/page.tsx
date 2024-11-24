@@ -8,13 +8,16 @@ export default function Page1() {
     function handleNext() {
         let selected: any = document.getElementsByClassName("check");
         let total = parseInt(localStorage.getItem("score")!);
+        let pageTotal = 0;
         
         for (let i = 0; i < selected.length; i++) {
             if ((selected)[i].checked == true) {
                 total += parseInt(selected[i].value);
+                pageTotal += parseInt(selected[i].value);
             }
         }
         localStorage.setItem("score", total.toString());
+        localStorage.setItem("page2", pageTotal.toString())
     }
     return (
         <div>
