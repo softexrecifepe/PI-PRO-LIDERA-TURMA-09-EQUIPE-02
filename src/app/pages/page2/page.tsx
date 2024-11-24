@@ -16,6 +16,9 @@ export default function Page2() {
     }
     return (
         <div>
+            <div className="m-10">
+                <Button buttonText="Anterior" type="button" href="page1"/>
+            </div>
             <form action="results" id="formC">
                 <Forms sliceStart={12} sliceEnd={18} />
                 <div className="text-center mt-20">
