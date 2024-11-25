@@ -26,4 +26,4 @@ O Quiz de Liderança ajuda usuários a identificar seu estilo de liderança e se
 
 ## Clone
 Para clonar o repositório: 
-git clone 
+git clone https://github.com/softexrecifepe/PI-PRO-LIDERA-TURMA-09-EQUIPE-02.git
