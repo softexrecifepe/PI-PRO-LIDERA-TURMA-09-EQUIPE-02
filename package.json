@@ -12,6 +12,7 @@
     "jspdf": "^2.5.2",
     "jspdf-autotable": "^3.8.4",
     "next": "^15.0.3",
+    "next-themes": "^0.4.3",
     "pi-pro-lidera-turma-09-equipe-02": "file:",
     "puppeteer": "^23.8.0",
     "react": "^18",

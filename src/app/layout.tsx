@@ -4,6 +4,7 @@ import Head from "next/head"; // Import Head component
 import "./globals.css";
 import { Header } from "./components/header";
 import { Footer } from "./components/footer";
+import { ThemeProvider } from "./providers/theme-provider";
 
 const nunito = localFont({
   src: "./fonts/Nunito-Regular.ttf",
@@ -27,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" suppressHydrationWarning>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -41,9 +42,13 @@ export default function RootLayout({
         />
       </Head>
       <body className={`${nunito.variable} ${roboto.variable} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
+        <ThemeProvider
+        attribute="class"
+        defaultTheme="light">
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
