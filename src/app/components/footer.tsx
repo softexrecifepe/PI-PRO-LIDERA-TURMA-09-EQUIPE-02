@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer(){
     return(
-            <footer className="bottom-0 w-full bg-box dark:bg-black dark:text-box h-fit mt-20">
+            <footer className="bottom-0 w-full bg-box dark:bg-boxd h-fit mt-20">
                 <h1 className="text-center p-10 font-semibold text-2xl">Pro Lidera Skills</h1>
                 <div className="flex">
                     <Link href={"/"} className="ml-auto font-semibold transition ease-in-out delay-75 hover:scale-150 duration-100">Página inicial</Link>

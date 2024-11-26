@@ -39,8 +39,8 @@ export default function ResultsPage() {
   const leadershipLevel = getLeadershipLevel(score); // Determina o nível de liderança com base na pontuação
 
   return (
-    <main id="results-content" className="max-w-2xl mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
-      <h1 className="text-3xl font-bold text-center text-indigo-600 mb-4">Resultados do Teste de Liderança</h1>
+    <main id="results-content" className="max-w-2xl mx-auto mt-10 p-6 bg-box dark:bg-boxd shadow-md rounded-lg">
+      <h1 className="text-3xl font-bold text-center mb-4">Resultados do Teste de Liderança</h1>
 
       {/* Passa o nível de liderança e a pontuação para o ResultCard */}
       <ResultCard leadershipLevel={leadershipLevel} score={score} />
