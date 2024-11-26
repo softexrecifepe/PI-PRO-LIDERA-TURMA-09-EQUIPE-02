@@ -8,15 +8,12 @@ export function Header() {
             <div className="flex items-center">
                 <Link href="/" className="ml-4 font-semibold text-lg titulo-principal hover:text-blue-500 transition-colors duration-200">Pro Lidera Skills</Link>
             </div>
+            <ButtonTheme/>
             <nav className="flex items-center space-x-6">
                 <Link href="/" aria-label="Página inicial" className="text-base hover:text-blue-500 transition-colors duration-200">
                     Página inicial
                 </Link>
-                <Link href="/sobre" aria-label="Sobre o programa" className="text-base hover:text-blue-500 transition-colors duration-200">
-                    Sobre o programa
-                </Link>
             </nav>
-            <ButtonTheme/>
         </header>
     );
 }

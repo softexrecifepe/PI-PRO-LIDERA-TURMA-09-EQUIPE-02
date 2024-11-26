@@ -44,7 +44,9 @@ export default function RootLayout({
       <body className={`${nunito.variable} ${roboto.variable} antialiased`}>
         <ThemeProvider
         attribute="class"
-        defaultTheme="light">
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange>
           <Header />
           {children}
           <Footer />

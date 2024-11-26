@@ -17,7 +17,9 @@ const config: Config = {
         'question': '#edebf2',
         'questiond': '#242323',
         'button-green': '#33F54A',
-        'button-orange': '#ED7447'
+        'button-orange': '#ED7447',
+        'button-greend': '#27cc3a',
+        'button-oranged': '#db683d'
       },
     },
   },
