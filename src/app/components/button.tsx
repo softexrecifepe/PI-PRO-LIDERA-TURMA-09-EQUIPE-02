@@ -10,11 +10,11 @@ export function Button({ buttonText, href, onClick, disabled = false, type }: {b
             className={`rounded-xl bg-gradient-to-r from-button-orange to-button-green px-1 py-2 font-semibold shadow-md`}
         >
             {href ? (
-                <Link href={href} className='w-full h-full rounded-lg px-4 py-1 bg-box dark:bg-boxd transition ease-in-out delay-75 hover:bg-slate-200 duration-300'>
+                <Link href={href} className='w-full h-full rounded-lg px-4 py-1 bg-box dark:bg-boxd transition ease-in-out delay-75 hover:bg-slate-200 dark:hover:bg-slate-900 duration-300'>
                     {buttonText}
                 </Link>
             ) : (
-                <span className='w-full h-full rounded-lg px-4 py-1 bg-box dark:bg-boxd transition ease-in-out delay-75 hover:bg-slate-900 duration-300'>
+                <span className='w-full h-full rounded-lg px-4 py-1 bg-box dark:bg-boxd transition ease-in-out delay-75 hover:bg-slate-200 dark:hover:bg-slate-800 duration-300'>
                     {buttonText}
                 </span>
             )}
