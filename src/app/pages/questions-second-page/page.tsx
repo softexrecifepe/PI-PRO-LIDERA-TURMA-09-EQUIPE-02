@@ -2,6 +2,7 @@
 
 import { Forms } from "@/app/components/forms";
 import { Button } from "@/app/components/button";
+import { BackButton } from "@/app/components/back-button";
 
 export default function Page1() {
 
@@ -21,8 +22,9 @@ export default function Page1() {
     }
     return (
         <div>
+            
             <div className="m-10">
-                <Button buttonText="Anterior" type="button" href="questions-first-page"/>
+            <BackButton href="questions-first-page" />
             </div>
             <form action="questions-third-page" id="formC">
                 <Forms sliceStart={6} sliceEnd={12} />

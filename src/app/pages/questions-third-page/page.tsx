@@ -2,6 +2,7 @@
 
 import { Forms } from "@/app/components/forms";
 import { Button } from "@/app/components/button";
+import { BackButton } from "@/app/components/back-button";
 
 export default function Page2() {
 
@@ -26,7 +27,7 @@ export default function Page2() {
     return (
         <div>
             <div className="m-10">
-                <Button buttonText="Anterior" onClick={() => singlePage()} type="button" href="questions-second-page"/>
+                    <BackButton onclick={() => singlePage()} href="questions-second-page"/>
             </div>
             <form action="results" id="formC">
                 <Forms sliceStart={12} sliceEnd={18} />
