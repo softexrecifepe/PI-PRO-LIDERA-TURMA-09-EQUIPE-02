@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pro-lidera Quiz 
 
-## Getting Started
+Um projeto React que realiza um quiz interativo para medir o tipo de liderança do usuário com base em sua pontuação. 
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O Quiz de Liderança ajuda usuários a identificar seu estilo de liderança e seu nível, com base em suas respostas as perguntas elaboradas.  
+É uma ferramenta útil para empresas e profissionais que desejam melhorar ou desenvolver habilidades de liderança.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Quiz interativo com perguntas e respostas múltiplas.
+- Cálculo de pontuação com base nas alternativas selecionadas.
+- Identificação do tipo e nível de liderança ao final do quiz.
+- Interface amigável e responsiva.
+- Possibilidade de reiniciar o quiz e visualizar os resultados de forma clara.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Organização de código
 
-## Learn More
+- Componentes como button, header, footer e forms criados na pasta components.
+- Separação do código para deixar mais compreensível.
+- Repartição do projeto em pastas para melhor organização.
+- Estrutura das páginas de questão e resultado em pastas separadas e criadas na pasta pages.
+- Utilização de CSS, tailwind e tsx
+- Criação de um data.json para armazenar dados e pontuações das questões do quiz.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Clone
+Para clonar o repositório: 
+git clone https://github.com/softexrecifepe/PI-PRO-LIDERA-TURMA-09-EQUIPE-02.git

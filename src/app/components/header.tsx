@@ -1,14 +1,19 @@
-import React from 'react'
-import lidera from '../resources/Lidera.png'
+import React from 'react';
+import Link from 'next/link';
+import { ButtonTheme } from './button-theme';
 
 export function Header() {
-    return(
-        <div className="w-[100%] ">
-            <header className="bg-header p-0 h-32 flex gap-5 text-right w-[100%] m-0">
-                <img className="w-24 h-24 ml-10 my-auto" src={lidera.src}/>
-                <h1 className="my-auto font-semibold pl-2 text-3xl">Pro Lidera Skills</h1>
-                <h1 className="text-3xl ml-auto my-auto mr-14">Sobre o programa</h1>
-            </header>
-        </div>
-    )
+    return (
+        <header className="bg-box flex items-center justify-between p-4 h-[64px] w-full m-0 top-0 left-0 z-50 dark:bg-boxd">
+            <div className="flex items-center">
+                <Link href="/" className="ml-4 font-semibold text-lg titulo-principal hover:text-blue-500 transition-colors duration-200">Pro Lidera Skills</Link>
+            </div>
+            <ButtonTheme/>
+            <nav className="flex items-center space-x-6">
+                <Link href="/" aria-label="Página inicial" className="text-base hover:text-blue-500 transition-colors duration-200">
+                    Página inicial
+                </Link>
+            </nav>
+        </header>
+    );
 }
