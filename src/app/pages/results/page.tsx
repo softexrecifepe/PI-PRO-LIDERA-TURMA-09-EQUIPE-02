@@ -1,16 +1,23 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ResultCard from "@/app/components/ResultCard";
 import FeedbackMessage from "@/app/components/feedbackMessage";
 import { PDFButton } from "@/app/components/PDFbutton";
 import { Button } from "@/app/components/button";
 
 export default function ResultsPage() {
+  const [score, setScore] = useState<number | null>(null);
   const name = "";
   const surname = "";
 
-  const score = parseInt(localStorage.getItem("score")!); // Pontuação do usuário, exemplo
+  useEffect(() => {
+    // Somente no cliente, depois da montagem
+    const storedScore = localStorage.getItem("score");
+    if (storedScore) {
+      setScore(parseInt(storedScore)); // Definir a pontuação do usuário
+    }
+  }, []);
 
   // função para determinar o índice do feedback com base na pontuação
   const getFeedbackIndex = (score: number): number => {
@@ -36,24 +43,24 @@ export default function ResultsPage() {
     return "Liderança Não Definida"; // caso a pontuação seja fora do intervalo
   };
 
-  const leadershipLevel = getLeadershipLevel(score); // Determina o nível de liderança com base na pontuação
+  const leadershipLevel = getLeadershipLevel(score!); // Determina o nível de liderança com base na pontuação
 
   return (
     <main id="results-content" className="max-w-2xl mx-auto mt-10 p-6 bg-box dark:bg-boxd shadow-md rounded-lg">
       <h1 className="text-3xl font-bold text-center mb-4">Resultados do Teste de Liderança</h1>
 
       {/* Passa o nível de liderança e a pontuação para o ResultCard */}
-      <ResultCard leadershipLevel={leadershipLevel} score={score} />
+      <ResultCard leadershipLevel={leadershipLevel} score={score!} />
 
       {/* Passa o índice dinâmico para o FeedbackMessage */}
-      <FeedbackMessage index={getFeedbackIndex(score)} />
+      <FeedbackMessage index={getFeedbackIndex(score!)} />
 
       <div className="text-center mt-8">
         <Button type="button" buttonText="Retornar ao Início" href="/" />
       </div>
 
       <div className="text-center mt-4">
-        <PDFButton name={name} surname={surname} leadershipLevel={leadershipLevel} score={score} />
+        <PDFButton name={name} surname={surname} leadershipLevel={leadershipLevel} score={score!} />
       </div>
     </main>
   );
