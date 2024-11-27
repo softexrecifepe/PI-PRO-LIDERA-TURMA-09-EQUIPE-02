@@ -1,14 +1,14 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import ResultCard from "@/app/components/ResultCard";
 import FeedbackMessage from "@/app/components/feedbackMessage";
 import { PDFButton } from "@/app/components/PDFbutton";
 import { Button } from "@/app/components/button";
 
 export default function ResultsPage() {
-  const [name, setName] = useState("");
-  const [surname, setSurname] = useState("");
+  const name = "";
+  const surname = "";
 
   const score = parseInt(localStorage.getItem("score")!); // Pontuação do usuário, exemplo
 
