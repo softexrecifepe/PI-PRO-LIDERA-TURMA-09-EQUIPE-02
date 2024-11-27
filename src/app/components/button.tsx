@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-export function Button({ buttonText, href, onClick, disabled = false, type }: {buttonText: string, href?: string, onClick?: () => void, disabled?: boolean, type: any}) {
+export function Button({ buttonText, href, onClick, disabled = false, type }: {buttonText: string, href?: string, onClick?: () => void, disabled?: boolean, type: 'button' | 'submit' | 'reset'}) {
     return (
         <button 
             disabled={disabled} 

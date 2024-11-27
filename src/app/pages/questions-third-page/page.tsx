@@ -7,7 +7,7 @@ import { BackButton } from "@/app/components/back-button";
 export default function Page2() {
 
     function handleNext() {
-        let selected: any = document.getElementsByClassName("check");
+        const selected: any = document.getElementsByClassName("check");
         let total = parseInt(localStorage.getItem("score")!)
         for (let i = 0; i < selected.length; i++) {
             if ((selected)[i].checked == true) {
