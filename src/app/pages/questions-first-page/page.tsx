@@ -6,7 +6,7 @@ import { Button } from "@/app/components/button";
 export default function Quest(){
 
     function handleClick(){
-        let selected: any = document.getElementsByClassName("check");
+        const selected: any = document.getElementsByClassName("check");
         let total = 0;
         for (let i = 0; i < selected.length; i++) {
             if ((selected)[i].checked == true) {

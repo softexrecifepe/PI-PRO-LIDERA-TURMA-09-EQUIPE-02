@@ -17,6 +17,4 @@ export function ButtonTheme(){
             </button>
         </div>
     )
-
-    
 }

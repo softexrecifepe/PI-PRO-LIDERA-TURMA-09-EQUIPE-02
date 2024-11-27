@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { InputText } from "./textInput";
 import { Button } from "./button";
 import { InputMail } from "./mailInput";
 
 export function RegisterForm(){
     function handleClick(){
-        let name: any = document.getElementById("Name");
-        let surname: any = document.getElementById("Surname");
-        let email: any = document.getElementById("Email");
-        let userName = name.value + " " + surname.value
-        let userEmail = email.value
+        const name = document.getElementById("Name") as HTMLInputElement;
+        const surname = document.getElementById("Surname")  as HTMLInputElement;
+        const email = document.getElementById("Email")  as HTMLInputElement;
+        const userName = name.value + " " + surname.value
+        const userEmail = email.value
         
         localStorage.setItem("name", userName)
         localStorage.setItem("email", userEmail)

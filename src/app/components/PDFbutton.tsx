@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/app/components/button";
 import Results from "../json/results.json";
-import { PDFDownloadLink, Document, Page, Text, View, StyleSheet, pdf } from "@react-pdf/renderer";
+import { Document, Page, Text, View, StyleSheet, pdf } from "@react-pdf/renderer";
 
 // Função para obter o resultado com base na pontuação
 const getResultFromJSON = (score: number) => {
