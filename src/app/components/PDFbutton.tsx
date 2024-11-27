@@ -15,6 +15,9 @@ const getResultFromJSON = (score: number) => {
 
 type PDFButtonProps = {
   score: number;
+  name: string;
+  surname: string;
+  leadershipLevel: string;
 };
 
 const PDFDocument = ({ score, name }: { score: number, name: string }) => {
@@ -45,7 +48,6 @@ const PDFDocument = ({ score, name }: { score: number, name: string }) => {
       marginBottom: 5, // Maior margem inferior
     },
     table: {
-      display: "table",
       width: "100%",
       borderRadius: 8,
       overflow: "hidden",
@@ -154,7 +156,7 @@ export const PDFButton: React.FC<PDFButtonProps> = ({ score }) => {
   return (
     <Button
       type="button"
-      buttonText="Disponibilizar em PDF"
+      buttonText="Imprimir Resultado"
       onClick={handlePrint}
     />
   );

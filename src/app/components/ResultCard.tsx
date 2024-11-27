@@ -2,6 +2,7 @@ import Results from "../json/results.json";
 
 type ResultCardProps = {
   score: number;
+  leadershipLevel: string;
 };
 
 const getLeadershipLevel = (score: number): string => {
