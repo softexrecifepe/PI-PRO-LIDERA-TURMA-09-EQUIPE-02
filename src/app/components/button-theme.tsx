@@ -5,11 +5,16 @@ import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { useTheme } from "next-themes"
 
 export function ButtonTheme(){
-    const { setTheme } = useTheme();
+    const { systemTheme, theme, setTheme } = useTheme();
+    const currentTheme = theme === "system" ? systemTheme : theme;
+
+    
     return(
-        <div>
-            <button onClick={() => setTheme("light")}><FontAwesomeIcon icon={faSun}/></button>
-            <button onClick={() => setTheme("dark")}><FontAwesomeIcon icon={faMoon}/></button>
+        <div className='rounded-xl shadow-md overflow-hidden'>
+            <button className=' bg-box dark:bg-boxd' onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}>
+            <FontAwesomeIcon className="rounded-xl text-box  bg-boxd px-4 py-2 m-1" icon={faSun}/> 
+            <FontAwesomeIcon className='rounded-xl dark:text-boxd  dark:bg-box px-4 py-2 m-1' icon={faMoon}/>
+            </button>
         </div>
     )
 
