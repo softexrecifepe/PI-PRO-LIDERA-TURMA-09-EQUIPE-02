@@ -114,7 +114,7 @@ const PDFDocument = ({ score, name }: { score: number, name: string }) => {
         <View style={styles.table}>
           <View style={[styles.tableRow, { borderTop: "none" }]}>
             <Text style={[styles.tableCell, styles.tableHeader]}>Campo</Text>
-            <Text style={[styles.tableCell, styles.tableHeader]}>Valor</Text>
+            <Text style={[styles.tableCell, styles.tableHeader]}>Resultado</Text>
           </View>
           <View style={styles.tableRow}>
             <Text style={styles.tableCell}>Nível de Liderança</Text>
