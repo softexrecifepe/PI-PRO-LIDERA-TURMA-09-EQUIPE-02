@@ -154,7 +154,7 @@ export const PDFButton: React.FC<PDFButtonProps> = ({ score }) => {
   return (
     <Button
       type="button"
-      buttonText="Imprimir Resultado"
+      buttonText="Disponibilizar em PDF"
       onClick={handlePrint}
     />
   );
